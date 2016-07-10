@@ -4,13 +4,13 @@
 }
 .row-content {
   margin: 0px auto;
-  padding: 50px 0px;
+  padding: 10px 0px;
   border-bottom: 1px ridge;
   min-height: 400px;
 }
 .row-footer {
   margin: 0px auto;
-  background-color: #990033;
+  background-color: #507642;
   color: black;
 }
 .jumbotron {
@@ -19,7 +19,7 @@
   color: black;
 }
 .navbar-inverse {
-  background: #990033;
+  background: #507642;
   color: black;
   z-index:9999;
   font-weight: bold;
@@ -146,7 +146,7 @@ div {
     text-justify: inter-word;
 }
 
-.panel-heading
-{
-  background: #990033;
+.stripe-1 {
+  color: black;
+  background:  #86942A;
 }

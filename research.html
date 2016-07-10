@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head 
          content must come *after* these tags -->
-    <title>Circuit Design Research Lab @ IIIT-D</title>
+    <title>Homepage of Mohammad Hashmi</title>
     <link rel="shortcut icon" href="img/favicon.ico" />
      <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <![endif]-->
 </head>
 
-<body class="fixer">
+<body>
     <header class="jumbotron">
         <!-- Main component for a primary marketing message or call to action -->
         <div class="container">
@@ -60,38 +60,24 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="publications.html">Publications</a></li>
                         <li><a href="teaching.html">Teaching</a></li>
-                        <li><a href="research.html">Research</a></li>
+                        <li class="active"><a href="research.html">Research</a></li>
                         <li><a href="students.html">Students</a></li>
-                        <li class="active"><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
     </nav>
-        <div class="row">
-            <div class="col-xs-12 col-sm-4 col-sm-offset-1">
-                <h3><strong>Contact Information</strong></h3>
-                <strong>Email: <a href="mailto:mshashmi@iiitd.ac.in">mshashmi[AT]iiitd.ac.in</a></strong><br>
-                Mohammad Hashmi, PhD. <br>
-                Assistant Professor <br>
-                Department of Electronics and Communications Engineering<br>
-                Indraprastha Institute of Info. Tech. (IIIT) Delhi<br>
-                New Delhi, India.<br>
-                Phone: +91-11-26907453<br><br>
-                <h3><strong>Correspondence Address</strong></h3>
-                A-305, Academic Building,<br>
-                Indraprastha Institute of Info. Tech. (IIIT) Delhi,<br>
-                Okhla Industrial Estate, Phase-III,<br>
-                New Delhi - 110020,<br>
-                India. <br><br>
-                <h3><strong>Landmarks</strong></h3>
-                ► G.B. Pant Engineering College <br>   
-                ► Govind Puri Metro Station <br><br>
-                <h4><strong><a href="https://www.iiitd.ac.in/home/contact" target="_blank">How to reach IIIT-D</a></strong></h4>   
-                <p style="padding: 20px;"></p>
-            </div>
-            <div class="col-xs-12 col-sm-6" id='gmap_canvas' style='height:600px;width:700px;'></div>
-            <p style="padding: 20px;"></p>
-        </div>
+    <div class="row row-content">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <h2 class="stripe-1">Multi-band RF Circuits & Systems</h2>
+            <p>The advent of multi-standard and multi-band software defined radio (SDR) applications has necessitated the design and deployment of dual-band/multi-band RF components and circuits considering the numerous advantages they possess over the traditional narrow band circuits and components. For example, a dual-band power amplifier (PA) not only simplifies the hardware complexity but also provides higher reconfigurability and hence makes it a front runner for deployment in SDR architectures. Furthermore, the evolution of communication technologies demands the use of dual-band/multi-band RF circuits so as to accommodate many standards simultaneously for facilitating and guaranteeing the backward compatibility of future standards (such as 4G) based system for smooth network migration and upgrades. My research focusses on developing simple techniques for transmission line based dual-band/multi-band RF components in the context of multi-band/multi-mode SDR architecture, highlighting the problems which need to be addressed during the design process.</p>
+            <h2 class="stripe-1">Power Amplifier Linearization</h2>
+            <p>Linearization of nonlinear power amplifiers (PAs) is an important issue with the growing use of advanced modulation and access techniques that utilize spectrally efficient modulation waveforms, such as orthogonal frequency-division multiplexing (OFDM), code-division multiple access (CDMA2000) and wideband code-division multiple access (WCDMA), in communication systems. A PA that works with these wideband signals causes out-of-band emission, also known as spectral regrowth, due to the nonlinear behavior of the PA. Furthermore, PAs are typically operated as close as possible to saturation to achieve maximum power efficiency and output power, which also means functioning in the most nonlinear region, implying significant distortion and spectral regrowth. As solutions to this efficiency-linearity dilemma, several techniques have evolved for the linearization of RF PAs. The focus of my research in this domain is development of optimal digital pre-distortion (DPD) algorithms for enabling SDR applications. In addition, previously I have been involved in the development of analog predistoters and wish to revisit that domain soon. </p>
+            <h2 class="stripe-1">Software Defined Radio</h2>
+            <h2 class="stripe-1">Biomedical Electronics and Applications</h2>
+            <h2 class="stripe-1">Effects of EMF Radiation on Life</h2>
+        </div>   
+    </div>
 
     <footer id="footer" class="row-footer">
         <div class="container">           
@@ -163,7 +149,6 @@
           }
         });
     </script>
-    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(28.544583,77.272500),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.544583,77.272500)});infowindow = new google.maps.InfoWindow({content:'<strong>A-305, IIIT-D Academic Block</strong><br>IIIT-Delhi, New Delhi, Delhi<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 </body>
 
 </html>
