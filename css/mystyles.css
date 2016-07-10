@@ -1,0 +1,152 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.row-footer {
+  margin: 0px auto;
+  background-color: #990033;
+  color: black;
+}
+.jumbotron {
+  margin: -47px auto;
+  background: white;
+  color: black;
+}
+.navbar-inverse {
+  background: #990033;
+  color: black;
+  z-index:9999;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background: #666633;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #666633;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #666633;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: #666633;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #666633;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #666633;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #000000;
+}
+
+body {
+  align: center;
+  z-index: 0;
+}
+.cal{
+  font-family: Calibri;
+  font-size: 15px;
+}
+.tab-content {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 10px;
+}
+.affix {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/* Not important */
+.footer {
+  background: #eee;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+@media screen and (min-device-width: 1367px) {
+    body
+    {
+      width: 70%;
+      align: center;
+      z-index: 0;
+      margin-left: 15%;
+    }
+}
+
+.dl-horizontal dt 
+{
+    white-space: normal;
+    width: 30px; 
+}
+
+.dl-horizontal dd {
+    margin-left: 50px;
+}
+
+.ab:link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}
+.ab:visited {
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}
+.ab:hover, .ab:focus {
+  text-decoration: underline;
+  color: black;
+}
+
+h1.panel-title {
+    font-size: 36px;
+}
+h2.panel-title {
+    font-size: 30px;
+}
+h3.panel-title {
+    font-size: 24px;
+}
+h4.panel-title {
+    font-size: 18px
+}
+h5.panel-title {
+    font-size: 14px
+}
+h6.panel-title {
+    font-size: 10px;
+} 
+
+.brdr {
+  border:1px solid black;
+}
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.panel-heading
+{
+  background: #990033;
+}
