@@ -10,7 +10,7 @@
 }
 .row-footer {
   margin: 0px auto;
-  background-color: #507642;
+  background-color: #92CD00;
   color: black;
 }
 .jumbotron {
@@ -19,7 +19,7 @@
   color: black;
 }
 .navbar-inverse {
-  background: #507642;
+  background: #92CD00;
   color: black;
   z-index:9999;
   font-weight: bold;
@@ -49,9 +49,6 @@
   background: #666633;
   color: #ffffff;
 }
-.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
-  color: #000000;
-}
 
 body {
   align: center;
@@ -61,12 +58,7 @@ body {
   font-family: Calibri;
   font-size: 15px;
 }
-.tab-content {
-  border-bottom: 1px solid #dddddd;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;
-  padding: 10px;
-}
+
 .affix {
   top: 0px;
   left: 0px;
