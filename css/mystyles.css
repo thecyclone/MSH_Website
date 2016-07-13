@@ -8,11 +8,7 @@
   border-bottom: 1px ridge;
   min-height: 400px;
 }
-.row-footer {
-  margin: 0px auto;
-  background-color: #92CD00;
-  color: black;
-}
+
 .jumbotron {
   margin: -47px auto;
   background: white;
@@ -68,6 +64,11 @@ body {
 /* Not important */
 .footer {
   background: #eee;
+}
+
+#footer{
+  height: 50px;
+  background-color: #92CD00;
 }
 
 .dropdown:hover .dropdown-menu {
