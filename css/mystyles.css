@@ -149,3 +149,7 @@ div {
   background:  black;
   border-radius: 5px;
 }
+
+.nobull{
+  list-style-type: none;
+}
